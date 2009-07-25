@@ -1,7 +1,7 @@
 Name: hunspell-ru
 Summary: Russian hunspell dictionaries
 Version: 0.99f7
-Release: 3%{?dist}
+Release: 4%{?dist}
 Epoch: 1
 Source: ftp://ftp.vsu.ru/mirrors/scon155.phys.msu.su/pub/russian/ispell/myspell/rus-myspell-%{version}.tar.gz
 Group: Applications/Text
@@ -42,6 +42,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Jul 24 2009 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1:0.99f7-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_12_Mass_Rebuild
+
 * Tue Feb 24 2009 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1:0.99f7-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_11_Mass_Rebuild
 
